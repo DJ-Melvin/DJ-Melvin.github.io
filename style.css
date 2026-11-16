@@ -16,6 +16,7 @@ nav { display: flex; flex-wrap: wrap; column-gap: 21px; row-gap: 8px; font-size:
 section { margin-top: 36px; }
 h2 { font-size: 21px; font-weight: 600; line-height: 1.4; margin: 0 0 22px; padding-bottom: 10px; border-bottom: 1px solid var(--line); letter-spacing: -.3px; }
 .news-item { display: grid; grid-template-columns: 96px 1fr; gap: 18px; }
+.news-item + .news-item { margin-top: 12px; }
 time { color: var(--muted); font-size: 14px; padding-top: 2px; }
 .news-item p { margin: 0; }
 h3 { font-size: 17px; font-weight: 600; line-height: 1.6; margin: 0 0 8px; }
